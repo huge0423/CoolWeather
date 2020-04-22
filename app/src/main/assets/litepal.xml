@@ -1,0 +1,13 @@
+<!--assets代表资源。资金等-->
+<!--将数据库名指定成cool_weather，数据库版本为1，并将三个数据库实体类添加到映射列表中-->
+<litepal>
+    <dbname value="cool_weather" />
+
+    <version value="1" />
+
+    <list>
+        <mapping class="com.ninestar.coolweather.db.Province" />
+        <mapping class="com.ninestar.coolweather.db.City" />
+        <mapping class="com.ninestar.coolweather.db.County" />
+    </list>
+</litepal>
